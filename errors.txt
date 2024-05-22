@@ -1,0 +1,14 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 179: end of line expected.
+    jump branch_4:
+                 ^
+
+File "game/script.rpy", line 185: end of line expected.
+    jump branch_5:
+                 ^
+
+Ren'Py Version: Ren'Py 8.2.1.24030407
+Sat May 18 18:00:48 2024
