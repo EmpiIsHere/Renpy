@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 179: end of line expected.
-    jump branch_4:
-                 ^
-
-File "game/script.rpy", line 185: end of line expected.
-    jump branch_5:
-                 ^
+File "game/script.rpy", line 61: invalid syntax
+    = Character("King Throin")
+     ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Sat May 18 18:00:48 2024
+Thu May 23 08:05:55 2024
