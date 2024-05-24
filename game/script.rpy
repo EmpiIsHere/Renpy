@@ -80,8 +80,31 @@ label start:
     n"Everyone’s busy with their requirements. And there’s one student who made the room a bit odd as she walks on"
     show akemi def
     n"Akemi is an ordinary student. She always wears her jolliest smile."
-
-
+    n"School Day is done as she makes her way to her favorite spot which is at the library she saw an old book"
+    n"Akemi pick it up and try to read it but there is no content of the book only a Riedel"
+    a"Hmm there's a Riedel (It lights sometimes; it’s dark sometimes everyone wants to walk all over me. What am I?)?"
+    n"As akemi read the riedel she try to answer it "
+    a"Moon"
+    n"The book glows a wight light and Akemi close her eye"
+    n"Akemi hear that someone is calling for her as she slowly open her eyes, she saw this mysterious woman"
+    Mysterious"Hero please wake up.."
+    a"uh?....waht happen...and who are you"
+    Mysterious"Thank you are aright....My name is Aoi i am the daughter of king Charles and from the kingdom of Azurevale"
+    pra"May i ask your name Hero"
+    a"Hi my name is Akemi....Where am I..."
+    pra"Hero Akemi then...you are in the ruins forest this place is used to summoned hero from another world"
+    a"Huh i am no hero i am just a regular student"
+    n"As Akemi seems confused Princess Aoi try to explain everything as she gradually understands the situation Akemi ask another question."
+    a"I see so that's what happened....then why did you summon me here"
+    pra"Please help me on my quest to defeat an evil magician that have been terrorizing my Kingdome and my father..."
+    pra"please help me"
+    n"Akemi have been to honest and always helping someone who needs her help even if she put her sefl in danger."
+    a".....Okey ill help you Princess Aoi"
+    pra"Really thank you so much hero Akem"
+    a"It's fine.... and please stop calling me Hero Akemi it's kind of embarrassing"
+    a"Just call me Akemi.. "
+    pre"Understood.... Then you can call me Aoi its so nice to meet you"
+    a"Yeah nice to meet you too."
 label branch_2:
     n"As Akemi and Princess Aoi have decided to start their adventure journey."
     show princess def at left
