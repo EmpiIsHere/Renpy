@@ -54,6 +54,8 @@ define g = Character("General Ragnor")
 
 define grdelf = Character("Elf Guard") 
 
+define elder  = Character("Elfe Elder")
+
 define dwarfgrd=Character("Dwarf Guard")
 
 define durin=Character("Durin")
@@ -137,7 +139,126 @@ label branch_3:
     grdelf"Wait here i will ask for the chef of the village."
     n"As the time Akemi and Princess Aoi for the approval of the chef village."
     grdelf"You may enter and be careful"
-
+    n"As the they both enter the elf village akemi is amaze to the scenery of the elf village and the center have this giant tree"
+    a"Wow look at that tree, it looks bigger than the biggest building in my hometown."
+    n" As they enter inside the giant tree, they are great by the elder of the elf village"
+    elder"Greetings Princess Aoi you have grown"
+    pra"It's nice to see you all again."
+    elder"Hmm. Princess Aoi are you doing okey, we heard what happen about your father and your kingdom, as you know that we are a friend to your ancestor and your father, we are sorry to hear it."
+    pra"Thank you for your concern, allow me to introduce you to Akemi the hero i brought to this world to defeat Himeko."
+    a"Hello, it's so nice to meet you all."
+    elder"Hmmm. We guest that you are here to ask us the location of the Blade of Ethereal Fang yes."
+    pra"Yes, we would like to use it to deafet Himeko."
+    elder"We will tell you the location, but it's very dangerous in the forest, and many monsters have been wandering there do you still want to know."
+    pra"Yes"
+    elder"And how about you, are you prepared to fight such a monster."
+    n"As as they look at akemi waiting to her response"
+    a"Yes, because I made a promised to aoi to help her."
+    elder"Very well then, the location of the sword is located at the center of Whispering Woods west from here, but recently there's a giant snake wandering and we try everything we can but the monster can heal itself easily,
+    Princess Aoi be careful you and hero Akemi Please look after Princess Aoi, and one more thing go to the center of the forest monster won't go near the location of the sword."
+    a"Yes"
+    pra"We will be careful and thank you"
+    n"As they start their quest to get the sword Akemi ask Princess Aoi."
+    a"Aoi, why did Himeko attack and claim your kingdom."
+    pra"Himeko is also a magic caster like me but instead of helping other Himeko used it for her personal gain and Himeko is obsessed with gaining more power and she fell into the darkness and wanted to control others through fear and power."
+    a"So, she's really obsesses in gaining more power huh."
+    n"As Akemi and princess aoi got closer to their destination suddenly an angry giant snake attack them."
+    a"Ahh!" 
+    pra" Ahh!"
+    a"Are you okey Aoi!" 
+    pra"Yes, I am fine"
+    n"As the dodge the attack of the giant snake Akemi suddenly got stumble by a tree"
+    a"Ahhh!"
+    n": As the snake notice the snake suddenly release a purple smoke and release it Akemi suddenly feel dizzy and feel weak and the giant snake saw Akemi lie down on the ground the snake tries to attack again."
+    pra"Akemi, Look out!!"
+    n"As Princess Aoi saw Akemi can move, she used her magic and attack the snake with fire."
+    pra"FireBall"
+    n"As the Giant snake got attack by a fire it got distracted and Princess Aoi :used the chance to see Akemi"
+    pra"Are you alright Akemi."
+    a" Yeah I am fine...just a little dizzy."
+    pra" Let's retreat for now."
+    a"Yeah, you're right."
+    n"As they retreat far away from the monster for now, they rest for a bit."
+    pra"Are you okey Akemi?."
+    n"As Princess Aoi asked Akemi if she is okey she didn't get a respond. "
+    pra"Akemi,Akemi hey are you okey!"
+    n"Princess Aoi shake Akemi and notice something is strange on Akemi"
+    pra"Huh!? Poison."
+    pra"that is the content of the purple smoke that the snake release earlier"
+    pra" I must do something."
+    pra" As soon as Princess Aoi knows that it is a poison, she began sight an incantation for magic"
+    pra"Heal!.....Yes, it works, Akemi are okey?"
+    a"Aoi, what happened?"
+    pra"Thank goodness you're okay...are you still injured."
+    a"No i think i am fine...What happend anyway"
+    pra"You got poison."
+    a"I see thank you for helping me"
+    pra"Its okey, don't mention it"
+    n"As they rest for a bit Akemi notices something rustelling in the forest, the giant snake appears again."
+    a"Aoi look out!"
+    pra"Ahh!"
+    n"Princess Aoi and Akemi were able to dodge the snake attack."
+    pra"Be careful Akemi"
+    a"Yeah, we need to run deep in the forest."
+    pra"Yeah, you're right the monster won't go near the location of the sword."
+    pra"Akemi i will cast a support magic on you and can you give me sometime i will use my magic."
+    a"Okey got it."
+    n" As Akemi tries to distract the giant snake Princess Aoi is preparing her magic."
+    pra"I am ready Akemi."
+    a"okey!."
+    pra"Mega Flare!!"
+    n"As the snake got attacked again by fire Akemi rush toward on Princess Aoi."
+    a"We did it lets go."
+    pra"Yeah, but i can’t run fast i used all my magic power on that attack. "
+    a"Okey then il carry you lets go."
+    pra"Thank you Akemi."
+    a"Its okey."
+    n"Akemi carries Princess Aoi and ran fast at the center of the forest as soon as they see the center Akemi go toward it."
+    a"AAHHH! We made it!"
+    pra"Yeah."
+    n"As they both got in the center of the forest Akemi look at the sword "
+    a"So that is the Blade of Ethereal Fang"
+    pra"Yes, go on Akemi try to pull it."
+    a"Yeah..Okey lest do this."
+    n"As Akemi Approach the sword, she can feel its power wondering if this is the reason why no monster won't go near it, as Akemi hold the sword, she felt warm feeling all over her body." 
+    a "Here’s got nothing."
+    n"As soon as akemi tried to pull the sword she felt it was too light."
+    a"Yes!, Look Aoi i did it i pulled the sword."
+    n"Princess Aoi looks at Akemi and smiles. "
+    pra" Yes, you did it."
+    a"let's rest here for a while, are you still tired."
+    pra"Yes, thank you for asking."
+    n"Akemi and Princess Aoi finally got rest for a bit they are now trying to go back to the elf village once again."
+    a"Finaly We got the Blade of Ethereal Fang we are close in saving your Kingdome Aoi"
+    pra" Yes."
+    n"Akemi and Princess Aoi chatting, the snake appears again it their way."
+    a"Aoi be careful let's defeat this giant snake for real this time."
+    pra"Right"
+    n"Akemi and Princess Aoi prepare to fight the giant snake and Akemi proposes a plan."
+    a"Use your magic and support and i will draw its attention try to use fire magic only "
+    pra"Okey"
+    n"Akemi draw the attention of the snake and princess aoi used fire magic to make the giant snake more confused, Because of this the giant snake try to use the purple Princess used her support magic to make Akemi resistance to poised for a short amount of time."
+    pra"Now is your chance Akemi."
+    a"Right,HYAAAA!!."
+    n"Akemi jumps high and goes directly to attack the head of the snake. As she swings her sword to the head, Akemi lands and the giant snake's head."
+    a"Wow this sword cut it like paper...we did it Aoi."
+    pra"Yeah....that was amaizing Akemi."
+    a"Let's go back to the elf village."
+    pra"Yeah."
+    n"Akemi and Princess Aoi got Infront of the elf village they are surprised to see that Akemi is holding the Blade of Ethereal Fang"
+    elder"We are glad you are safe Princess Aoi and Akemi. "
+    pra"Thank you."
+    n"Akemi and Princess Aoi explain what happened, they are relief and surprised because they were able to slay the giant snake and the Elf elder explains about that giant snake."
+    elder"We have been for long time..that snake suddenly appear out of knowhere and releasing a purple smoke."
+    pra"Himeko must be the one behind it. She must be trying to stop someone who will search for the sword."
+    elder"It must be.... but the sword can’t be pulled by a normal person, Akemi."
+    a"Yes"
+    elder"The sword chooses you to be its user please use it only for good."
+    a"I will."
+    elder"We assume that the two of you will continue your journey, we will pray for your success and safety, good luck Akemi and Princess Aoi."
+    a"Thank you"
+    pra"Thank you."
+    n"Akemi and Princess Aoi say goodbye to the elf village they are now off on their next journey."
 
     if menu_flag == False:
         jump branch_5
@@ -192,7 +313,7 @@ label branch_4:
     
     n"With Durins guidance Akemi and Princess Aoi are escorted through the bustling street of ironforge."
     
-    a"Look at the busy street Aoi, there are a lot of markets and lot of weapons on display and a lot of beautiful jewelry and shining armor its really like a fantasy."
+    pra"Look at the busy street Aoi, there are a lot of markets and lot of weapons on display and a lot of beautiful jewelry and shining armor its really like a fantasy."
     
     pra"Yes, there's a lot of people than the last time i visit here."
     
@@ -202,7 +323,7 @@ label branch_4:
     
     pra"t's an honor to meet you to king Throin allow me to introduce my companion, her name is Akemi she is the hero i summon"
     
-    a"It's a pleasure to meet you, King Throin."
+    pra"It's a pleasure to meet you, King Throin."
     
     n"King Throin regarded Akemi with a solemn gaze, acknowledging the hero's presence with a hint of respect."
     
@@ -305,11 +426,46 @@ label branch_4:
 
     a"(With a final, powerful strike) For the dwarves! For our people!"
 
-    n"With a final clash, General Ragnor fell defeated. The cavern echoed in victory's silence."
-    n"With the gem secured, Akemi and Princess Aoi returned triumphant."
-    n"Cheers and applause greeted them in the royal halls, hailed as heroes by the dwarven citizens."
+    n"With a final, resounding clash, General Ragnor fell to the ground, defeated. The cavern echoed with the silence of their victory, and fo deep in the minning cave Akemi and Princess Aoi was
+    surprise the beautiful of the gem infornt of them."
 
+    pra"Akemi, look! Over there, deep in the mining cave. It's the Mystic Lunar, shimmering in a radiant sky blue. It's truly breathtaking... Our journey was not in vain, this gem holds the key to our kingdom's salvation."
 
+    a"Yeah, Aoi I've never seen anything so beautiful. It's like the heavens themselves have descended into this cave. With this gem, we can forge the Necklace of Valor and bring hope back to your people."
+
+    n"As Akemi and Princess Aoi return, King Throin greeted them with gratitude. He thanked both of them for their bravery and informed us that General Ragnor had been defeated. It seems our victory has weakened our enemy's forces"
+
+    a"Thank you, King Throin. We're honored to have helped. Our encounter with General Ragnor was challenging, but with Princess Aoi's leadership, we prevailed."
+
+    k"Your bravery has brought light to our kingdom in these dark times. With the Mystic Lunar in our possession, we can now forge a necklace stronger than ever before. Guards, prepare the forge and summon our most skilled smith. The Necklace of Valor shall rise again!"
+
+    pra"Akemi, our journey together has been filled with danger and uncertainty, but seeing the Mystic Lunar fills me with hope."
+
+    a"Aoi it's been an honor to fight by your side. Your courage and determination inspire me. Together, we've overcome every obstacle, and I have no doubt that we'll continue to do so."
+
+    pra"hank you, Akemi. Your strength and loyalty have been invaluable to our cause. Let us go forth and ensure that the Necklace of Valor is forged with the same determination that brought us here."
+
+    n"As Akemi and Priccess Aoi rest for a few day to finish the forge of Necklace of Valor Akemi notice somting is worrying Princess Aoi."
+
+    a"Aoi is something bothering you I can see the worry in your eyes."
+
+    pra"Thank you Akemi, I am just worry about my father and the people of Azurevale"
+
+    a"I see...But for now, let us focus on the task at hand. We have the gem, and soon we will have the necklace. With its power, we will be better equipped to face whatever challenges lie ahead"
+
+    pra"Yes..your right,we must stay focused on our mission"
+
+    n"As they awaited the necklace's completion, Akemi and Princess Aoi spent their days in the dwarven kingdom, assisting those in need. Though outwardly brave, the weight of their responsibilities grew heavier, intensifying their sense of urgency."
+
+    n"On the day of completion, King Throin presented the finished necklace to Akemi and Princess Aoi"
+
+    k"This necklace is a testament to your bravery and determination. May it serve you well in your quest to bring peace to your kingdom."
+
+    pra"Thank you King Throin"
+
+    a"Thank you"
+
+    n"As they set their next journey,the grand halls of the royal palace, they were greeted with cheers and applause from the dwarven citizens, who hailed them as heroes."
 
     if menu_flag == False:
         jump branch_3
