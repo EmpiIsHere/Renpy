@@ -66,6 +66,9 @@ define min1 = Character("Minion 1")
 
 define min2 = Character("Minion 2")
 
+define c = Character("King Charles")
+
+define dra =Character ("Draythorn")
 
 
 # The game starts here.
@@ -113,7 +116,7 @@ label branch_2:
     a"I see..."
     hide akemi def
     show princess def
-    pra"so witch of the two item you want to get first."
+    pra"so which of the two item you want to get first."
     hide princess def
     menu:
         "Blades of Ethernal Fang":
@@ -130,21 +133,22 @@ label branch_3:
     #Princess aoi
     show princess def
     pra"We must travel deep in the forest to meet the elf elder and ask the Whispering woods."
-    hide princess def
     n"Upon reaching the guard gates of the Faewood they met with a vigilant sentry, wary of outsider. "
     grdelf"Stop right there, who are you and state your buisness."
     n"With Aoi regal presence lending credibility and royal etiquette"
-    show princess def
     pra"Good day to you sir, I am Princess Aoi from the kingdom of Azurevale, we humbly ask request to meet and ask guidance of the elf elder."
     grdelf"Wait here i will ask for the chef of the village."
     n"As the time Akemi and Princess Aoi for the approval of the chef village."
     grdelf"You may enter and be careful"
     n"As the they both enter the elf village akemi is amaze to the scenery of the elf village and the center have this giant tree"
+    hide princess def
+    show akemi def
     a"Wow look at that tree, it looks bigger than the biggest building in my hometown."
     n" As they enter inside the giant tree, they are great by the elder of the elf village"
     elder"Greetings Princess Aoi you have grown"
     pra"It's nice to see you all again."
     elder"Hmm. Princess Aoi are you doing okey, we heard what happen about your father and your kingdom, as you know that we are a friend to your ancestor and your father, we are sorry to hear it."
+    hide akemi def
     pra"Thank you for your concern, allow me to introduce you to Akemi the hero i brought to this world to defeat Himeko."
     a"Hello, it's so nice to meet you all."
     elder"Hmmm. We guest that you are here to ask us the location of the Blade of Ethereal Fang yes."
@@ -154,13 +158,14 @@ label branch_3:
     elder"And how about you, are you prepared to fight such a monster."
     n"As as they look at akemi waiting to her response"
     a"Yes, because I made a promised to aoi to help her."
-    elder"Very well then, the location of the sword is located at the center of Whispering Woods west from here, but recently there's a giant snake wandering and we try everything we can but the monster can heal itself easily,
-    Princess Aoi be careful you and hero Akemi Please look after Princess Aoi, and one more thing go to the center of the forest monster won't go near the location of the sword."
+    elder"Very well then, the location of the sword is located at the center of Whispering Woods west from here."
+    elder" but recently there's a giant snake wandering and we try everything we can but the monster can heal itself easily,"
+    elder "Princess Aoi be careful you and hero Akemi Please look after her, and one more thing go to the center ofthe forest monster won't go near the location of the sword"
     a"Yes"
     pra"We will be careful and thank you"
     n"As they start their quest to get the sword Akemi ask Princess Aoi."
     a"Aoi, why did Himeko attack and claim your kingdom."
-    pra"Himeko is also a magic caster like me but instead of helping other Himeko used it for her personal gain and Himeko is obsessed with gaining more power and she fell into the darkness and wanted to control others through fear and power."
+    pra"Himeko is also a magic caster like me but instead of helping others, she used it for her personal gain and Himeko is obsessed with gaining more power and she fell into the darkness and wanted to control others through fear and power."
     a"So, she's really obsesses in gaining more power huh."
     n"As Akemi and princess aoi got closer to their destination suddenly an angry giant snake attack them."
     a"Ahh!" 
@@ -169,11 +174,11 @@ label branch_3:
     pra"Yes, I am fine"
     n"As the dodge the attack of the giant snake Akemi suddenly got stumble by a tree"
     a"Ahhh!"
-    n": As the snake notice the snake suddenly release a purple smoke and release it Akemi suddenly feel dizzy and feel weak and the giant snake saw Akemi lie down on the ground the snake tries to attack again."
+    n"As the snake notice the snake suddenly release a purple smoke and release it Akemi suddenly feel dizzy and feel weak and the giant snake saw Akemi lie down on the ground the snake tries to attack again."
     pra"Akemi, Look out!!"
-    n"As Princess Aoi saw Akemi can move, she used her magic and attack the snake with fire."
+    n"As Princess Aoi saw Akemi can't move, she used her magic and attack the snake with fire."
     pra"FireBall"
-    n"As the Giant snake got attack by a fire it got distracted and Princess Aoi :used the chance to see Akemi"
+    n"As the Giant snake got attack by a fire it got distracted and Princess Aoi used the chance to go see Akemi condirtion"
     pra"Are you alright Akemi."
     a" Yeah I am fine...just a little dizzy."
     pra" Let's retreat for now."
@@ -186,7 +191,7 @@ label branch_3:
     pra"Huh!? Poison."
     pra"that is the content of the purple smoke that the snake release earlier"
     pra" I must do something."
-    pra" As soon as Princess Aoi knows that it is a poison, she began sight an incantation for magic"
+    n" As soon as Princess Aoi knows that it is a poison, she began sight an incantation for magic"
     pra"Heal!.....Yes, it works, Akemi are okey?"
     a"Aoi, what happened?"
     pra"Thank goodness you're okay...are you still injured."
@@ -473,6 +478,169 @@ label branch_4:
         jump branch_5
 
 label branch_5:
+
+    n"Akemi and Princess Aoi continue and prepare their journey and Princess Aoi turned to Akemi with a determined look in her eyes."
+
+    pra"Akemi, there is one final item we need to retrieve to defeat Himeko once and for all."
+
+    n"he explained, her voice filled with resolve"
+
+    pra"t is the Crimson Radiance Ring, said to protect its wearer from even the most powerful of attacks. However, it is in the realm of one of the Heavenly Dragons, guarded for millennia, awaiting the true and worthy hero to retrieve it."
+
+    n"Akemi nodded, understanding the gravity of their task." 
+    a "Then we must journey to the realm of the Heavenly Dragon and prove ourselves worthy of the Crimson Radiance Ring."
+    n"She replied, her voice steady with determination"
+    a"Together, we will face whatever challenges lie ahead and emerge victorious."
+    n"With their hearts set on their next quest, Akemi and Princess Aoi, their minds filled with thoughts of the trials and tribulations that awaited them."
+    n"As one of the minions of General Ragnor escaped from the kingdom of the dwarves, he wasted no time in delivering his message to Himeko. Rage consumed her as she learned of Princess Aoi and Akemi's involvement."
+    min1"Your Majesty General Ragnor was defeated by a Princess Aoi and a girl named Akemi."
+    h"What...they defeated Ragnor what Ragnor is supposed to be strong, and he was defeated."
+    min1"What should we do you Majesty. "
+    h"Bring me King Charles (king of Azurevale) from his cell now!"
+    min2"Yes, your Majesty."
+    n"The Minion brings King Charles to Himeko and asks him the location of the Crimson Radiance Ring."
+    h"Hmmm...I want you to tell me something and don't think of lying to me! "
+    c"Hmmm... "
+    h"Tell me the location of the Crimson  of Radiance Ring."
+    c"Hmmm...I won't tell you even if you threat to kill me"
+    h"hmm....If you don't tell me the location of the Crimson radiance ring i will kill ever person in this castle HAHAHHAHAH!"
+    h"And that's not all I will also kill your beloved daughter"
+    c"You monster don't you dare to hurt her...or-"
+    h"AHAHAHAH!...Or what haha what can you possible do in your current state...I make you a deal, I will order my Servant to only capture Princess Aoi and return her to you safe and sound if you tell me the location of the ring."
+    c"Hmmm....I want you to give me your word that you won't hurt my daughter and my people."
+    h"Hehe, Fine i give you my word"
+    c"The location of the Crimson Radiance Ring is in the Heavenly Dragon Mountain."
+    h"Was that hard to say, take him back to his cell. "
+    n"With King Charles returning to back to his cell his heart heavy with guilt and despair, he hoped to protect his people and Princess Aoi from her wrath."
+    n"But as soon as the information was in her grasp, Himeko's true intentions were revealed. With a wicked grin, she ordered her minion to return the king to his cell, his fate sealed for daring to defy her."
+    h"Heavenly Dragons Mountain huh....Let's see if this time they will survive HAHAHAAHAH!."
+    n"Himeko concocted a sinister plan to ensure Akemi and Princess Aoi's demise. Harnessing her dark powers, she formed a purple orb infused with her malevolent energy."
+    h"Come my servant i want to give you a special quest right now you are my general I need you to deliver this in the heavenly dragons Mountain now, "
+    min1": I am honored your majesty."
+    n"The orb contains some of Himeko power and it will realease  a purple smoke that will make any living creature to go berserk and becomes Himekos pawn,meanwhile Akemi and Princess Aoi continue their journey. "
+    a"So thats the heavenly Mountain Dragon."
+    pra"Yes..theirs also a dragon living there"
+    a"Really thats amazing, wait if there is a dragon living there then we will get attacked by it"
+    pra"No its okey the dragon thats been living there is actually a kind dragon he never go attack human as long as it doesnt bother him."
+    a"Really then were safe..as long as we dont bother him okey seems easy."
+    pra"Yes"
+    n"As Akemi and Princess Aoi continue their walk a violent wind suddenly whipped around them."
+    a"Aoi, AAHHHH!"
+    pra"Akemi, AAHHHH!"
+    a"Why you!!"
+    n"As the dragon poised itself for another strike, Akemi leaped high into the air, carrying Princess Aoi to safety."
+    a"Are you okey Aoi. "
+    pra"Yes, i am fine, Thank you."
+    a"Stay here i deal with the dragon."
+    n"Akemi drew her sword, ready to face the formidable foe. With a swift and precise strike, she lunged at the dragon, but to her astonishment, her blade had no effect. "
+    a"What...It didn’t work, what's going on?"
+    n"Princess Aoi uses her magic to strike the dragons wing and to Akemi is surprised that magic is working. She also try to use it."
+    a"So magic works huh..then let's see you try to take this."
+    n"The sword lights fire and Akemi try to slash the dragon but as soon as Akemi is about to attack Princess Aoi stops her."
+    pra"Wait Akemi!!"
+    a"Huh,why whats wrong."
+    n"As soon as Akemi got stopped by princess Aoi the dragon raise up and started to fire a multipe fireball."
+    a"Whooo!, Thats was close."
+    pra"Akemi lets hide for now, trust me. "
+    a"Really, Okey if you say so."
+    n"Akemi and princess Ai ran deep to the forest were the stumble a lake and Princess Aoi explained to Akemi what she noticed."
+    a"Whats, why did you stop me. "
+    pra"That dragon seems in pain and under an influence of something like there is something controlling it against its will."
+    a"Then what should we do."
+    pra"I know that i am asking too much, but can we save it. "
+    a"Okey if that's what you want so how we will help it."
+    pra"Hmmmmm...how about we investigate his lair maybe we can find somethig there or we can try to make it unconscious and see what is going on to him Whats your choice?"
+
+menu:
+        "Investiagte the cause":
+            $ menu_flag = True
+            jump invest_dragon
+
+        "Fight the dragon":
+            $ menu_flag = False
+            jump fight_dragon
+
+label invest_dragon:
+    a"We should investigate it then" 
+    pra"Okey then "
+    n"As they try to hide from the trees to go look for the dragon lair Princess Aoi saw something."
+    pra"Hmm,whats that, Akemi come over here"
+    a"What did you saw."
+    pra"There's seemed to be a cave over theirs seem to be a purple fog inside it."
+    a"We Should go and see it."
+    pra"Okey, but first i will cast a spell to prevent us from that purple smoke. "
+    n"Narrator: Akemi and Princess Aoi enter the cave the saw a purple orb that is releasing purple smoke. "
+    a"What is that should we go and see it."
+    pra"Okey, but lest be carefull"
+    n"Akemi and Himeko got closer to the purple orb Princess Aoi looks it and realize that this is Himeko’s doing."
+    pra"I see now Himeko must have used this purple orb to control the dragon. "
+    a"Should we destroy it then?"
+    pra"Wait if we just destroy it the smoke will get more powerful  "
+    a"So What should we do"
+    pra"We need to purify it by chaneling light magic maybe it will stop the smoke but my magic it not enough to purify it but I think you can do it  Akemi you Blade of Ethereal Fang to cast the light magic and necklace of valor to boost your magic."
+    a"Okey, i will try"
+    n"Akemi try to focus with the help of the elder of the elf Akemi is able to cast magic into the sword and as the sword lights all the smoke slowly vanishes, and the purple orb suddenly turns gray. "
+    a"HMMMMMM!!!! "
+    pra"Yes thats it Akemi you did it now we should see what the condition of the dragon is outside "
+    n"Akemi saw the dragon fall sleep nearby when the purple smoke is gone. "
+
+
+label fight_dragon:
+
+    a"We should fight it if we dont try to stop in now the dragon might attack an innocent"
+    pra"Okey, I understand."
+    pra"First we need plan, magic is the only thing to hurt him and we have to knock him down so i will be able to observe what is wrong with him, "
+    a"I Have an idea Aoi."
+    pra"Okey lets hear it. "
+    a"First I will draw its attention and you try to attack him with magic and once he is down i will try to use a bind magic so he mont be able to move"
+    pra"Okey I,got it."
+    n" As Akemi try to shout loudly to lure the dragon."
+    a"HYYAAAAAAAAAAA!!"
+    n" A violent wind dash through Akemi as see observe where will it attack Akemi. "
+    a"Hmmm,Over there, aoi get ready."
+    pra"On it."
+    n"Narator As akemi draw the attention of the dragon princess Aoi used this chance to fire at the dragon."
+    pra"FireBall"
+    n"As the dragon got hit Akemi used a binding magic to seal the movement of the dragon while Princess Aoi notice the purple aura raleasing n the body of the dragon"
+    pra"Akemi I got it we need to use light magic to remove the purple aura but my magic is not enough."
+    a"I will do it i will used the Blade of Ethereal Fang to cast the light magic and necklace of valor to boost your magic"
+    n"As Akemi concentrate in casting light magic the sword light and the necklace glow and the purple aura is slowly fading and making the dragon fall sleep"
+
+
+label outcome:
+    n"Exhausted from the Akemi and Princess Aoi shared a triumphant smile, knowing they had succeeded in freeing the dragon from Himeko's control, As minutes passed, the dragon stirred awake, its eyes filled with remorse for its actions. "
+    a"Hi are you okey?"
+    pra"How are you feeling?"
+    Dragon"Yes and thank you for saving me."
+    pra"My name is Aoi and this is my companion Akemi."
+    a"Hi whats your name."
+    Dragon"Akei and Aoi.....My name is Draythorn" 
+    n"As they rest for bit, Draythorn asks what are they doing here in heavenly mountain?"
+    pra" We are looking for the Crimson of Radiance Ring."
+    dra"So you are also looking for it too?" 
+    a"What do you mean by that "
+    dra"When i was under the influence of that purple smoke a keep hearing a female voice to destroy someone and bring her the ring."
+    pra"Its Himeko again."
+    a"Yeah and she is probably trying to get the ring for herself."
+    dra" So that's her name huh, it's true that i have the ring but it won't work if I don't give my magic to power to it, I will give you the ring as a reward for helping me and promise me this Akemi and Princess Aoi to defeat Himeko."
+    a" I Promise"
+    pra" I Promise"
+    n"Draythorn gave Crimson Radiance Ring. Akemi donned the ring, feeling its power course through her veins, and to their surprise, Draythorn blessed the ring, imbuing it with even greater strength. "
+    n"With their mission accomplished, Draythorn offers Princes Aoi and Akemi a ride. As they soared towards the edge of the forest, they bid farewell to Draythorn, expressing their gratitude for his aid and the swift ride, With the Crimson Radiance Ring in their possession and Draythorn's blessing, Akemi and Princess Aoi continued their quest with renewed determination"
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
