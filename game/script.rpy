@@ -76,41 +76,54 @@ label start:
     show akemi def
     n"Akemi is an ordinary student. She always wears her jolliest smile."
 
+
 label branch_2:
-
-
-
-
-label branch_3:
     n"As Akemi and Princess Aoi have decided to start their adventure journey."
-    show princess def
+    show princess def at left
     pra"Thank you for helping me Akemi..."
     hide princess def
-    show akemi def
+    show akemi def at left
     a"It okey your welcome.... so, are we going straight to kingdom of Azurevale?"
     hide akemi def
+    show princess def
     pra"No, Himeko is a powerful magician simple physical and magical attack won't hurt her."
+    hide princess def
+    show akemi def at left
     a"So how will I be able to beat Himeko then?"
+    hide akemi def
+    show princess def at left
     pra"We need to get the 3 legendary items that can only be wielded by a hero who came far from our world and that is you. "
+    hide princess def
+    show akemi def
     a"So, what are these 3 legendary items. Then."
+    hide akemi def
+    show princess def
     pra"The first is the blade of Ethereal Fang the legend tells that it has been forge and bless by the ancient gods and imbued with the power to pierce through darkness itself."
     pra"The second item is the Necklace of Valor it is made by the most skilled dwarf and has the ability to increase physical and magical power to its full potential."
+    hide princess def
+    show akemi def 
     a"What about the third item."
+    hide akemi def
+    show princess def
     pra"Princess Aoi: I can't tell you yet. In order to obtain the last item, you need to have the first two. You need their combined power before you can even attempt to retrieve the third item."
+    hide princess def
+    show akemi def
     a"I see..."
-    pra"    so witch of the two item you want to get first."
-
+    hide akemi def
+    show princess def
+    pra"so witch of the two item you want to get first."
+    hide princess def
     menu:
         "Blades of Ethernal Fang":
             $ menu_flag = True
-            jump branch_4
+            jump branch_3
 
         "Necklace of Valor":
             $ menu_flag = False
-            jump branch_5
+            jump branch_4
  
 #Blade of Ethernal Fang
-label branch_4:
+label branch_3:
     n"Ethereal Fang legend speak that it is resting place deep within the heart of mystical forest known as the Whispering Woods and the location of the forest is only know the elder elf wich is located at Faewood."
     #Princess aoi
     show princess def
@@ -122,18 +135,19 @@ label branch_4:
     show princess def
     pra"Good day to you sir, I am Princess Aoi from the kingdom of Azurevale, we humbly ask request to meet and ask guidance of the elf elder."
     grdelf"Wait here i will ask for the chef of the village."
-    n"As the time Akemi and Princess Aoi for the approval of the chef village. "
+    n"As the time Akemi and Princess Aoi for the approval of the chef village."
     grdelf"You may enter and be careful"
 
+
     if menu_flag == False:
-        jump branch_6
-    elif menu_flag == True:
         jump branch_5
+    elif menu_flag == True:
+        jump branch_4
 
 
 
 #Necklace of Valor
-label branch_5:
+label branch_4:
     n"As Akemi and Princess Aoi set their journey to get the Necklace of Valor from the dwarf and the name of the kingdom is Ironforge."
     show princess def
     pra"We need to travel to the Ironspine mountain and go to the Ironforge kingdom and meet their king his name is King Throin. "
@@ -295,15 +309,17 @@ label branch_5:
     n"With the gem secured, Akemi and Princess Aoi returned triumphant."
     n"Cheers and applause greeted them in the royal halls, hailed as heroes by the dwarven citizens."
 
+
+
     if menu_flag == False:
-        jump branch_4
+        jump branch_3
     elif menu_flag == True:
-        jump branch_6
+        jump branch_5
 
 
 
 
-label branch_6:
+label branch_5:
 
 
 
