@@ -1144,6 +1144,7 @@ label option_1:
 
     h "Will this be a suitable place for the duel? Also for our audience we have the King himself!"
 
+    jump himeko_fight
     
 
     
@@ -1195,6 +1196,8 @@ label option_2:
     n "Himeko started chanting as she prepares to transport both herself and Akemi to the throne room."
 
     h "Will this be a suitable place for the duel? Also for our audience we have the King himself!"
+
+    jump himeko_fight
 
 label himeko_fight:
 
