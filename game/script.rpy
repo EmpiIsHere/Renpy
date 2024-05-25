@@ -1083,49 +1083,51 @@ label branch_6:
     
 
 label option_1:
-
-    a "Aoi you are the Princess of Azurevale, the one who helped me through this journey to get the necessary items to defeat Himeko, and the one who will free your people from Himeko"
+    show akemi at left, flip
+    a "Aoi you are the Princess of Azurevale, the one who helped me through this journey to get the necessary items to defeat Himiko, and the one who will free your people from Himiko"
 
     a "We may not be able to save everyone but there are still people who are waiting to be save and if we don’t stop her then she will continue destroying everything"
-
+    show princess at right
     pra "You are right, defeat is never an option we must continue forwards"
 
-    pra "I will support you with all I got Akemi together we will defeat Himeko!"
+    pra "I will support you with all I got Akemi together we will defeat Himiko!"
 
     n "The duo continued its way towards the kingdom but as they get closer and closer to their destination the sound of demons screaming and the undead growling can be heard getting louder and louder"
-
+    hide akemi
+    hide princess
     n "Then they saw it, outside of the kingdom a massive horde of demons and undead scattered outside ravaging everything from houses to the land scape itself"
 
     n "The once beautiful kingdom was turn into a desolate place by the army"
 
     n "As the both of them are shocked at what they saw Akemi filled with self-doubt asked Aoi"
-
+    show akemi at left, flip
     a "With all these demons and undead are we able to fight this head on?"
-
-    pra "Although the legendary item’s are powerful, they only protect you and an ambush from Himeko herself can easily be the death of both of us"
+    show princess at right
+    pra "Although the legendary item’s are powerful, they only protect you and an ambush from Himiko herself can easily be the death of both of us"
 
     pra "Our best bet is to avoid conflict against the whole army and sneak our way in and…"
-
+    show himiko
     h "That’s a brilliant idea princess! *Binds the princess*"
-
+    hide princess
     h "You may have the legendary items *points at Akemi* but the princess doesn’t have anything!"
 
-    n "Akemi surprised of what happened angerly tried to attack Himeko but was swiftly block by Himeko’s demons."
+    n "Akemi surprised of what happened angerly tried to attack Himiko but was swiftly block by Himiko’s demons."
 
     h "What will you do now that you lost your partner? Are you really going to fight me and my army all on your own?"
-
+    show akemi at left, flip
     a "What should I do? Why is she here? Can I even defeat her with her army? Am I ..."
-
+    show princess at right
     pra "Stop doubting yourself!"
 
     pra "We have come this far just to give up! We got everything we need you can do it Akemi!"
 
     pra "You have all you need to defeat her!"
-
+    hide princess
+    show akemi at left, flip
     a "You are right princess!"
 
-    a "Himeko! If you are really that powerful then you can defeat me all by yourself! Stop hiding behind your minions like a coward and fight me in a duel! Just you and me!"
-
+    a "Himiko! If you are really that powerful then you can defeat me all by yourself! Stop hiding behind your minions like a coward and fight me in a duel! Just you and me!"
+    show himiko at right
     h "And what makes you think I would accept that? You are the one who is surrounded here and I can easily command my army to attack you all at once"
 
     h "What gave you the authority to challenge me in a duel"
@@ -1140,27 +1142,26 @@ label option_1:
 
     h "Take the princess to the dungeon with the rest of the people and do not interfere with our fight!"
 
-    n "Himeko started chanting as she prepares to transport both herself and Akemi to the throne room"
+    n "Himiko started chanting as she prepares to transport both herself and Akemi to the throne room"
 
     h "Will this be a suitable place for the duel? Also for our audience we have the King himself!"
 
-    jump himeko_fight
-    
+    jump himiko_fight
 
     
 
 label option_2: 
-
+    show akemi at left, flip
     a "I am afraid that something bad may happen to you princess so I must fight her alone"
-
+    show princess at right
     pra "What are you saying that’s suicide!"
 
-    a "I know it may be suicide but what will happen when we fail to defeat Himeko and you didn’t survive? What will happen if we won but at the cost of your life? Who will lead you people? Who will look for help from other kingdoms when things don’t go our way?"
+    a "I know it may be suicide but what will happen when we fail to defeat Himiko and you didn’t survive? What will happen if we won but at the cost of your life? Who will lead you people? Who will look for help from other kingdoms when things don’t go our way?"
 
     a "I will continue to take this path alone please go back or stay at a safe place"
 
     a "I will be back when everything is done and if I don’t come back ask the other kingdoms for help"
-
+    hide princess
     n "As Aoi process and thinks about everything Akemi heads of towards the Azurevale"
 
     n "As Akemi gets closer and closer to her destination the sound of demons screaming and the undead growling can be heard getting louder and louder"
@@ -1170,10 +1171,10 @@ label option_2:
     n "The once beautiful kingdom was turn into a desolate place by the army"
 
     n " With determination in her heart, she continued her path and was met by someone unfamiliar"
-
+    show himiko at right
     h "Are you the hero they keep on talking about? Where is the princess? Did she ran away like the coward she is? Hahahahaha"
 
-    a "So you must be Himeko the reason why the kingdom is in ruins."
+    a "So you must be Himiko the reason why the kingdom is in ruins."
 
     h "The one and only!"
 
@@ -1193,16 +1194,16 @@ label option_2:
 
     h "Take the princess to the dungeon with the rest of the people and do not interfere with our fight!"
 
-    n "Himeko started chanting as she prepares to transport both herself and Akemi to the throne room."
+    n "Himiko started chanting as she prepares to transport both herself and Akemi to the throne room."
 
     h "Will this be a suitable place for the duel? Also for our audience we have the King himself!"
 
-    jump himeko_fight
+    jump himiko_fight
 
-label himeko_fight:
-
+label himiko_fight:
+    show akemi at left, flip
     a "What just happened? Where are we? *Looks around*"
-
+    show himiko at right
     h "We are in the Throne Room of the castle where you will rest as the king watches you suffer"
 
     a "*Looks towards the throne and saw the king* What have you done to the king?"
@@ -1219,25 +1220,25 @@ label himeko_fight:
 
     a "*nods as she prepares for battle, took a deep breathe, calmed her nerves and took a stance*"
 
-    n "As Akemi was preparing and taking a stance Himeko immediately launched an attack towards Akemi hitting her on her left side while a cloud of dust covered Akemi as the attack also hits the floor"
+    n "As Akemi was preparing and taking a stance Himiko immediately launched an attack towards Akemi hitting her on her left side while a cloud of dust covered Akemi as the attack also hits the floor"
 
     h "Is it already over? And here I thought I would be able to torture her som…"
 
-    n "As the dust settled Himeko saw Akemi still standing"
+    n "As the dust settled Himiko saw Akemi still standing"
 
     h "So you were able to surviv…"
 
-    n "Himeko paused as she noticed that Akemi only received a scratch"
+    n "Himiko paused as she noticed that Akemi only received a scratch"
 
     h "That attack only scratched you? Just how powerful are these items!"
 
-    a "That didn’t really hurt too much! So this must be the power of the ring with this I have a chance to defeat Himeko!"
+    a "That didn’t really hurt too much! So this must be the power of the ring with this I have a chance to defeat Himiko!"
 
     h "How powerful can these legendary items be? To think that attack will only leave a scratch!"
 
-    n "Akemi with her new found confidence charged at Himeko preparing an attack"
+    n "Akemi with her new found confidence charged at Himiko preparing an attack"
 
-    h "That attack is nothing *waves hand to try deflect the attack* A magician defense must not be… *spell slowly breaks and forced Himeko to retreat* These items the power it holds is really impressive if I don’t get serious, I may lose this battle"
+    h "That attack is nothing *waves hand to try deflect the attack* A magician defense must not be… *spell slowly breaks and forced Himiko to retreat* These items the power it holds is really impressive if I don’t get serious, I may lose this battle"
 
     h "How are you able to get all 3 Legendary Items especially the necklace since it was broken?"
 
@@ -1245,7 +1246,7 @@ label himeko_fight:
 
     h "So you are going to be quiet about everything then so be it! *launches a volley of attacks with different elements*"
 
-    n "Akemi although amazed at how powerful Himeko us was un able to say anything as she is too focus on dodging while inching closer and closer towards Himeko waiting for the right opportunity to strike!"
+    n "Akemi although amazed at how powerful Himiko us was un able to say anything as she is too focus on dodging while inching closer and closer towards Himiko waiting for the right opportunity to strike!"
 
     a "I finally got close enough to you *lunges at her preparing for an attack*"
 
@@ -1267,11 +1268,11 @@ label himeko_fight:
 
     h "You may be strong because of the items but in terms of experience you are no match for me! A simple girl with no sword training is nothing compared to me!"
 
-    n "Himeko knowing Akemi defense is strong prepared a spell with all of her power and focusing it on one point, a spell strong enough to piece anything. As she does that, she continued her volley of attack not letting Akemi gain any room to rest"
+    n "Himiko knowing Akemi defense is strong prepared a spell with all of her power and focusing it on one point, a spell strong enough to piece anything. As she does that, she continued her volley of attack not letting Akemi gain any room to rest"
 
     h "With this will be enough no matter how strong her defense is this spell will pierce through it!"
 
-    n "As Akemi is a meter away from Himeko, Himeko unleashed the magic circle where a huge spike burst through with a lot of speed"
+    n "As Akemi is a meter away from Himiko, Himiko unleashed the magic circle where a huge spike burst through with a lot of speed"
 
     n "This was the opportunity Akemi was waiting for as she clashed with the spell head on with the spell. Both attacks clashed to see which one is more powerful!"
 
@@ -1279,25 +1280,25 @@ label himeko_fight:
 
     a "I don’t need your pity for I will be the victor here!"
 
-    n "With all their might, the clashed continued until the spell broke surprising Himeko as the slash was able to connect to Himeko"
+    n "With all their might, the clashed continued until the spell broke surprising Himiko as the slash was able to connect to Himiko"
 
-    n "Himeko collapsed as Akemi points her sword towards her"
+    n "Himiko collapsed as Akemi points her sword towards her"
 
-    a "You lose Himeko, surrender and get rid of all of the demons and undead in the kingdom!"
+    a "You lose Himiko, surrender and get rid of all of the demons and undead in the kingdom!"
 
     h "So, this is the power of the legendary items? With this power even if my army ambushed you, you will be able to wipe them out"
 
     h "I was supposed to let my demons ambush you but it is too late now. I will honor our duel and let my army retreat. For I was defeated with honor"
-
-    n "As she used her last bit of energy to order her army to retreat, Himeko has met her end"
+    hide himiko
+    n "As she used her last bit of energy to order her army to retreat, Himiko has met her end"
 
     n "The battle was done and Akemi was the victor!"
 
     n "Akemi released the king and with the help of the was able to free all of the prisoners"
 
     n "Aoi then reunites with Akemi"
-
-    pra "You did it you won! You saved us all from Himeko! Our kingdom is once again free!"
+    show princess at right
+    pra "You did it you won! You saved us all from Himiko! Our kingdom is once again free!"
 
 
 
