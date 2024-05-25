@@ -1045,6 +1045,258 @@ label outcome:
 
 
 label branch_6:
+    pra "Now that we have gathered everything we finally have all of the necessary items we need to defeat Himeko!"
+
+    a "Lead the way princess towards the Kingdom of Azurevale"
+
+    pra "Draythorn dropped us at the outskirts of the Kingdom it will only take us half a day on foot to reach Azurevale, As long as we follow this path we should be fine"
+
+    a "Then lets get going then"
+
+    n "Akemi and Aoi sets off to the kingdom of Azurevale"
+
+    n "As they follow the path towards the kingdom their surrounding was filled with destruction and despair as they see villages nearby abandoned, natural resources destroyed and dead bodies scattered in the area"
+
+    n "Fear soon filled the air as the duo witness the results of their evil thinking how bad it is at the heart of it all"
+
+    pra "This is one of the villages that are outside of the Azurevale. I know Himeko is evil but it is worse than I thought"
+
+    pra "All of the villagers that have met their untimely demise, the houses are all in ruins, even the farms and surrounding forest is reduced to ashes"
+
+    pra "*tries not to puke at the sight she saw* Can we really win this fight against Himeko?"
+
+    pra "Was calling you from the other world a big mistake?"
+
+    pra "If this is what happened to the outskirts of the kingdom how bad is it at the castle?"
+
+    pra "I am afraid we are too late to take action!"
+
+    pra "What should we do?"
+    menu:
+        "Comfort Aoi":
+            jump option_1
+
+        "Leave Aoi alone":
+            jump option_2
+    
+
+    
+
+label option_1:
+
+    a "Aoi you are the Princess of Azurevale, the one who helped me through this journey to get the necessary items to defeat Himeko, and the one who will free your people from Himeko"
+
+    a "We may not be able to save everyone but there are still people who are waiting to be save and if we don’t stop her then she will continue destroying everything"
+
+    pra "You are right, defeat is never an option we must continue forwards"
+
+    pra "I will support you with all I got Akemi together we will defeat Himeko!"
+
+    n "The duo continued its way towards the kingdom but as they get closer and closer to their destination the sound of demons screaming and the undead growling can be heard getting louder and louder"
+
+    n "Then they saw it, outside of the kingdom a massive horde of demons and undead scattered outside ravaging everything from houses to the land scape itself"
+
+    n "The once beautiful kingdom was turn into a desolate place by the army"
+
+    n "As the both of them are shocked at what they saw Akemi filled with self-doubt asked Aoi"
+
+    a "With all these demons and undead are we able to fight this head on?"
+
+    pra "Although the legendary item’s are powerful, they only protect you and an ambush from Himeko herself can easily be the death of both of us"
+
+    pra "Our best bet is to avoid conflict against the whole army and sneak our way in and…"
+
+    h "That’s a brilliant idea princess! *Binds the princess*"
+
+    h "You may have the legendary items *points at Akemi* but the princess doesn’t have anything!"
+
+    n "Akemi surprised of what happened angerly tried to attack Himeko but was swiftly block by Himeko’s demons."
+
+    h "What will you do now that you lost your partner? Are you really going to fight me and my army all on your own?"
+
+    a "What should I do? Why is she here? Can I even defeat her with her army? Am I ..."
+
+    pra "Stop doubting yourself!"
+
+    pra "We have come this far just to give up! We got everything we need you can do it Akemi!"
+
+    pra "You have all you need to defeat her!"
+
+    a "You are right princess!"
+
+    a "Himeko! If you are really that powerful then you can defeat me all by yourself! Stop hiding behind your minions like a coward and fight me in a duel! Just you and me!"
+
+    h "And what makes you think I would accept that? You are the one who is surrounded here and I can easily command my army to attack you all at once"
+
+    h "What gave you the authority to challenge me in a duel"
+
+    a "If you truly are as powerful as you say then there’s nothing to fear about the duel. At the very least if I fail to defeat you I can have an honorable departure"
+
+    h "You amuse me your name is Akemi correct?"
+
+    a "Yes I am Akemi the Outworlder that will defeat you once and for all!"
+
+    h "You amuse me Akemi, I will accept your duel so that you will have a much more humiliating defeat! I want to see you beg as you wish you fought my army instead of me!"
+
+    h "Take the princess to the dungeon with the rest of the people and do not interfere with our fight!"
+
+    n "Himeko started chanting as she prepares to transport both herself and Akemi to the throne room"
+
+    h "Will this be a suitable place for the duel? Also for our audience we have the King himself!"
+
+    
+
+    
+
+label option_2: 
+
+    a "I am afraid that something bad may happen to you princess so I must fight her alone"
+
+    pra "What are you saying that’s suicide!"
+
+    a "I know it may be suicide but what will happen when we fail to defeat Himeko and you didn’t survive? What will happen if we won but at the cost of your life? Who will lead you people? Who will look for help from other kingdoms when things don’t go our way?"
+
+    a "I will continue to take this path alone please go back or stay at a safe place"
+
+    a "I will be back when everything is done and if I don’t come back ask the other kingdoms for help"
+
+    n "As Aoi process and thinks about everything Akemi heads of towards the Azurevale"
+
+    n "As Akemi gets closer and closer to her destination the sound of demons screaming and the undead growling can be heard getting louder and louder"
+
+    n "Then she saw it, Outside of the kingdom a massive horde of demons and undead scattered outside ravaging everything from houses to the land scape itself"
+
+    n "The once beautiful kingdom was turn into a desolate place by the army"
+
+    n " With determination in her heart, she continued her path and was met by someone unfamiliar"
+
+    h "Are you the hero they keep on talking about? Where is the princess? Did she ran away like the coward she is? Hahahahaha"
+
+    a "So you must be Himeko the reason why the kingdom is in ruins."
+
+    h "The one and only!"
+
+    a "If you are really that powerful then you can defeat me all by yourself! I challenge you in a duel! Just you and me!"
+
+    h "And what makes you think I would accept that? You are the one who is outnumbered here and I can easily command my army to attack you all at once."
+
+    h "What gave you the authority to challenge me in a duel"
+
+    a "If you truly are as powerful as you say then there’s nothing to fear about the duel. At the very least if I fail to defeat you I can have an honorable departure."
+
+    h "You amuse me, what is your name?"
+
+    a "I am Akemi the Outworlder that will defeat you once and for all!"
+
+    h "You amuse me Akemi, I will accept your duel so that you will have a much more humiliating defeat! I want to see you beg as you wish you fought my army instead of me!"
+
+    h "Take the princess to the dungeon with the rest of the people and do not interfere with our fight!"
+
+    n "Himeko started chanting as she prepares to transport both herself and Akemi to the throne room."
+
+    h "Will this be a suitable place for the duel? Also for our audience we have the King himself!"
+
+label himeko_fight:
+
+    a "What just happened? Where are we? *Looks around*"
+
+    h "We are in the Throne Room of the castle where you will rest as the king watches you suffer"
+
+    a "*Looks towards the throne and saw the king* What have you done to the king?"
+
+    h "Nothing really, He was very reluctant at giving me his Kingdom so I made sure he wont change his mind"
+
+    a "By chaining him at the throne? This is torture!"
+
+    h "That’s what he wanted now shall we commence the duel?"
+
+    n "As the king holds on to his life, so does the castle where the pillars and walls that became the foundation of the castle where now damaged and barely able to support the ceiling"
+
+    n "This will be Akemi's final battle!"
+
+    a "*nods as she prepares for battle, took a deep breathe, calmed her nerves and took a stance*"
+
+    n "As Akemi was preparing and taking a stance Himeko immediately launched an attack towards Akemi hitting her on her left side while a cloud of dust covered Akemi as the attack also hits the floor"
+
+    h "Is it already over? And here I thought I would be able to torture her som…"
+
+    n "As the dust settled Himeko saw Akemi still standing"
+
+    h "So you were able to surviv…"
+
+    n "Himeko paused as she noticed that Akemi only received a scratch"
+
+    h "That attack only scratched you? Just how powerful are these items!"
+
+    a "That didn’t really hurt too much! So this must be the power of the ring with this I have a chance to defeat Himeko!"
+
+    h "How powerful can these legendary items be? To think that attack will only leave a scratch!"
+
+    n "Akemi with her new found confidence charged at Himeko preparing an attack"
+
+    h "That attack is nothing *waves hand to try deflect the attack* A magician defense must not be… *spell slowly breaks and forced Himeko to retreat* These items the power it holds is really impressive if I don’t get serious, I may lose this battle"
+
+    h "How are you able to get all 3 Legendary Items especially the necklace since it was broken?"
+
+    n "Akemi didn’t respond as she is too focused on the fight as one wrong step may lead to her demise"
+
+    h "So you are going to be quiet about everything then so be it! *launches a volley of attacks with different elements*"
+
+    n "Akemi although amazed at how powerful Himeko us was un able to say anything as she is too focus on dodging while inching closer and closer towards Himeko waiting for the right opportunity to strike!"
+
+    a "I finally got close enough to you *lunges at her preparing for an attack*"
+
+    h "A magician doesn’t just only specialize in long range *As she says that a power spell that was prepared for the opportune moment was launched at Akemi hitting her directly*"
+
+    n "The hit was so powerful the it launched Akemi towards the wall!"
+
+    n "Akemi visible hurt from the blast and impact was bleeding but still able to stand and fight"
+
+    h "Still not giving up? Then you will suffer some more!"
+
+    n "a barrage of spells continued to target Akemi as she tries to dodge and inch forward."
+
+    a "What should I do? getting closer to her is no problem but I am not fast enough to dodge the attack up close!"
+
+    n "Akemi thinks of a way and wished she had a shield to block the spell to create an opening"
+
+    n "An idea popped up in her head and gathered all her courage because she knew if she fails she will meet death"
+
+    h "You may be strong because of the items but in terms of experience you are no match for me! A simple girl with no sword training is nothing compared to me!"
+
+    n "Himeko knowing Akemi defense is strong prepared a spell with all of her power and focusing it on one point, a spell strong enough to piece anything. As she does that, she continued her volley of attack not letting Akemi gain any room to rest"
+
+    h "With this will be enough no matter how strong her defense is this spell will pierce through it!"
+
+    n "As Akemi is a meter away from Himeko, Himeko unleashed the magic circle where a huge spike burst through with a lot of speed"
+
+    n "This was the opportunity Akemi was waiting for as she clashed with the spell head on with the spell. Both attacks clashed to see which one is more powerful!"
+
+    h "Give it up Akemi! If you apologize and grovel now, I'll let you live and be a part of my army or maybe even bring you back home"
+
+    a "I don’t need your pity for I will be the victor here!"
+
+    n "With all their might, the clashed continued until the spell broke surprising Himeko as the slash was able to connect to Himeko"
+
+    n "Himeko collapsed as Akemi points her sword towards her"
+
+    a "You lose Himeko, surrender and get rid of all of the demons and undead in the kingdom!"
+
+    h "So, this is the power of the legendary items? With this power even if my army ambushed you, you will be able to wipe them out"
+
+    h "I was supposed to let my demons ambush you but it is too late now. I will honor our duel and let my army retreat. For I was defeated with honor"
+
+    n "As she used her last bit of energy to order her army to retreat, Himeko has met her end"
+
+    n "The battle was done and Akemi was the victor!"
+
+    n "Akemi released the king and with the help of the was able to free all of the prisoners"
+
+    n "Aoi then reunites with Akemi"
+
+    pra "You did it you won! You saved us all from Himeko! Our kingdom is once again free!"
+
+
 
 
 
